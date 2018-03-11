@@ -18,9 +18,13 @@ public class main {
 //        System.out.println(stairs.runRec(n));
 //        System.out.println(stairs.runCache(n));
 
-        int n = 9;
-        IntToRoman intToRoman = new IntToRoman();
-        System.out.println(intToRoman.run(n));
+//        int n = 9;
+//        IntToRoman intToRoman = new IntToRoman();
+//        System.out.println(intToRoman.run(n));
+
+        String s = "MCMXCVI";
+        RomanToInt romanToInt = new RomanToInt();
+        System.out.println(romanToInt.runBrute(s));
 
         System.out.println(System.nanoTime() - startTime);
     }
