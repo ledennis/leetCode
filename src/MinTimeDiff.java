@@ -4,7 +4,7 @@ import java.util.*;
  * User: dennisle
  * Problem #: 539
  * Attempted on: 3/11/18
- * Solved on:
+ * Solved on: 3/17/18
  * Runtime: O(n) where n = time points
  * Solution: The difference of times between two points is shortest if the time points are right next to each other.
  *           Therefore, just find the difference between each nearest two points and also the first and last points
